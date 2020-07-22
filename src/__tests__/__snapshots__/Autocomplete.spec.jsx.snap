@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Autocomplete /> should show match snapshot if input\`s value is \`value-1\` 1`] = `
+<div
+  className="autocomplete-container"
+>
+  <h2>
+    Autocomplete by Misha Velmik
+  </h2>
+  <input
+    onChange={[Function]}
+    onClick={[Function]}
+    placeholder="Type here to search (try with numbers)"
+    value="value-1"
+  />
+  <div
+    className="list"
+  >
+    <div
+      className="list-item"
+      key="id-1"
+      onClick={[Function]}
+    >
+      value-1
+    </div>
+    <div
+      className="list-item"
+      key="id-10"
+      onClick={[Function]}
+    >
+      value-10
+    </div>
+  </div>
+</div>
+`;
